@@ -1,0 +1,7 @@
+; Optional settings for platod. Copy to /media/fat/PLATO/platod.ini
+;
+; PLATO host and TCP port. If "host" is set, it is used instead of the
+; "Server" OSD option.  5004 = classic protocol (auto-detect),
+; 8005 = ASCII protocol.
+;host=cyberserv.org
+;port=5004
