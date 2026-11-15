@@ -7,6 +7,7 @@ with the cores by aminta. With it, `update` and `update_all` install and keep th
 |---|---|---|---|
 | **Programma101** — Olivetti Programma 101 (1965), considered by many the first personal computer | Computer | `_Computer/Programma101_<date>.rbf` | [P101_MiSTer](https://github.com/aminta/P101_MiSTer) |
 | **PLATO** — PLATO terminal for CYBER1 (hybrid core: FPGA video + PTerm engine on the ARM) | Other | `_Other/PLATO_<date>.rbf`, `PLATO/`, `Scripts/plato_install.sh` | [PLATO_MiSTer](https://github.com/aminta/PLATO_MiSTer) |
+| **DREAM6800** — DREAM 6800 (Michael J. Bauer, Electronics Australia 1979): 6800 + CHIPOS/CHIP-8 | Computer | `_Computer/DREAM6800_<date>.rbf` | [DREAM6800_MiSTer](https://github.com/aminta/DREAM6800_MiSTer) |
 
 ## How to add it to your MiSTer
 
@@ -26,6 +27,10 @@ db_url = https://raw.githubusercontent.com/aminta/MiSTer_aminta_db/db/db.json.zi
 
 - **Programma101**: create `games/Programma101/` for your card files (`.p1c`); no programs are
   included (see the project README). User files (cards, `Paper.txt`) are never touched.
+- **DREAM6800**: the CHIPOS ROM is not included: download it from
+  [Michael Bauer's DREAM 6800 page](https://www.mjbauer.biz/DREAM6800.htm) and save it as
+  `games/DREAM6800/boot.rom` (see the project README). Games from the DREAMER newsletter:
+  [DREAMER programs for the DREAM 6800](https://aminta.github.io/DREAM6800_Programs/).
 - **PLATO**: after the first install run **Scripts → plato_install** once (it starts `platod`
   when the core is loaded). Your `PLATO/platod.ini` is never overwritten.
 
