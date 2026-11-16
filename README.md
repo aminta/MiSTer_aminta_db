@@ -27,9 +27,8 @@ db_url = https://raw.githubusercontent.com/aminta/MiSTer_aminta_db/db/db.json.zi
 
 - **Programma101**: create `games/Programma101/` for your card files (`.p1c`); no programs are
   included (see the project README). User files (cards, `Paper.txt`) are never touched.
-- **DREAM6800**: the CHIPOS ROM is not included: download it from
-  [Michael Bauer's DREAM 6800 page](https://www.mjbauer.biz/DREAM6800.htm) and save it as
-  `games/DREAM6800/boot.rom` (see the project README). Games from the DREAMER newsletter:
+- **DREAM6800**: CHIPOS is built in (with Michael Bauer's permission), nothing else to install.
+  Games from the DREAMER newsletter and Bauer's cassette programs:
   [DREAMER programs for the DREAM 6800](https://aminta.github.io/DREAM6800_Programs/).
 - **PLATO**: after the first install run **Scripts → plato_install** once (it starts `platod`
   when the core is loaded). Your `PLATO/platod.ini` is never overwritten.
